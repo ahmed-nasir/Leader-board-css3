@@ -23,6 +23,17 @@ main{
     
 
 }
+/* Navigation Bar */
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #383CC1;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
 /* Top Players Style */
 .top-players{
     margin-bottom: 30px;
