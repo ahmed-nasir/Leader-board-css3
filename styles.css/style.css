@@ -54,7 +54,7 @@ nav{
 }
 .nav-left h4{
     font-size: 24px;
-    color: red;
+    color: #FFFFFF;
     margin-left: 16px;
 }
 
@@ -65,7 +65,7 @@ nav{
 
 .nav-right a{
     text-decoration: none;
-    color: black;
+    color: #FFFFFF;
     font-size: 16px;
     margin-right: 36px;
     font-weight: 400;
