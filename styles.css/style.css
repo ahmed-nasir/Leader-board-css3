@@ -6,6 +6,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
+    margin: 0;
 
 }
 main{
@@ -15,7 +16,7 @@ main{
 }
 .container{
     background-color: #FFFFFF;
-    width: 870px;
+    width: 60%;
     padding: 30px;
     border-radius: 5px;
     margin-top: 21px;
@@ -25,13 +26,49 @@ main{
 }
 /* Navigation Bar */
 nav{
-    display: flex;
-    justify-content: space-around;
     background-color: #383CC1;
 }
-nav a{
+
+.container-1{
+    width: 60%;
+    margin: 0 auto;
+}
+.nav-section{
+    /* -----------Flex--------- */
+    display: flex;
+    justify-content: space-between;
+
+    /* ----------grid----------- */
+    /* background-color: #383CC1; */
+    /* display: grid;
+    grid-template-columns: repeat(5,1fr);
+    background-color: cadetblue; */
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+}
+.nav-left img{
+    width: 41px;
+    height: 51px;
+}
+.nav-left h4{
+    font-size: 24px;
+    color: red;
+    margin-left: 16px;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+}
+
+.nav-right a{
     text-decoration: none;
-    color: white;
+    color: black;
+    font-size: 16px;
+    margin-right: 36px;
+    font-weight: 400;
 }
 
 /* Top Players Style */
